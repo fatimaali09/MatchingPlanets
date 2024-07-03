@@ -85,64 +85,56 @@ body{
     margin: 3px;
     font-size: 70px;
     font-style: initial;
-  
-    } 
 
 
-@media only screen and (max-width: 350px){
-    .gamebox{
-        height: 300px;
-        width: 300px;
+    @media only screen and (max-width: 500px){
+
+.gamebox{
+        height: 260px;
+        width: 260px;
         display: flex;
         flex-wrap: wrap;
-        padding: 10px;
-        align-self: center;
-        }
-            
-    .card{
-        height: 54px;
-        width: 54px;
-        background-color: rgb(233, 220, 146);
-        border-radius: 40%;
-        border-width: 2px;
-        border-style: solid;
-        border-color: blueviolet;
-        box-shadow: 1px 1px;
-        margin: 8px;
-        cursor: pointer;
-             }    
-        
-    .card img{
+        padding: 10px;}
+    
+.card{
+    height: 54px;
+    width: 54px;
+    background-color: rgb(233, 220, 146);
+    border-radius: 40%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+    box-shadow: 1px 1px;
+    margin: 3px;
+    cursor: pointer;
+     }    
+
+.card img{
         height: 54px;
         width: 54px;
         border-radius: 40%;
         cursor: pointer;
-            }
-            
-    .button{
+    }
+    
+.button{
         margin-top: 1px;
         margin-bottom: 1px;
         border-radius: 5px;
+        /* border: 1px solid black; */
         text-align: center;
-        width: 50px;
         background-color: brown;
         padding: 5px;
         text-transform: uppercase;
         color: bisque;
         cursor: pointer;
-            }
-            
-    .title{
+    }
+    
+.title{
         font-size: 32px;
         font-weight: bolder;
         color: white;
-         /* border: solid rgb(188, 106, 106); */
+        /* border: solid rgb(188, 106, 106); */
         margin: 3px;
         text-shadow: solid salmon 2px;
-            } 
-    *,body{
-        margin: 0px;
-        padding: 0px;    
-        }
-        }
-    
+    } 
+} 
