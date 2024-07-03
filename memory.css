@@ -1,0 +1,148 @@
+*,body{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    }
+    
+body{
+    height: 100vh;
+        background-color: rgb(132, 182, 239);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:radial-gradient( rgb(150, 193, 242), rgb(0, 17, 255));
+    }
+
+#box{
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+.gamebox{
+        height: 500px;
+        width: 500px;
+        /* border: 1px solid red;  */
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(233, 220, 146);
+    border-radius: 40%;
+    border: 3px solid blueviolet;
+    box-shadow: 2px 2px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 2px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: transform 0.2s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img{
+        height: 100px;
+        width: 100px;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+
+
+.button{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+        text-align: center;
+        width: 150px;
+        background-color: brown;
+        padding: 5px;
+        text-transform: uppercase;
+        color: bisque;
+        cursor: pointer;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: transform 0.2s ease;
+}
+
+.button:hover {
+    
+}
+    
+.title{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: 3px;
+    font-size: 70px;
+    font-style: initial;
+  
+    } 
+
+
+@media only screen and (max-width: 350px){
+    .gamebox{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        align-self: center;
+        }
+            
+    .card{
+        height: 54px;
+        width: 54px;
+        background-color: rgb(233, 220, 146);
+        border-radius: 40%;
+        border-width: 2px;
+        border-style: solid;
+        border-color: blueviolet;
+        box-shadow: 1px 1px;
+        margin: 8px;
+        cursor: pointer;
+             }    
+        
+    .card img{
+        height: 54px;
+        width: 54px;
+        border-radius: 40%;
+        cursor: pointer;
+            }
+            
+    .button{
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50px;
+        background-color: brown;
+        padding: 5px;
+        text-transform: uppercase;
+        color: bisque;
+        cursor: pointer;
+            }
+            
+    .title{
+        font-size: 32px;
+        font-weight: bolder;
+        color: white;
+         /* border: solid rgb(188, 106, 106); */
+        margin: 3px;
+        text-shadow: solid salmon 2px;
+            } 
+    *,body{
+        margin: 0px;
+        padding: 0px;    
+        }
+        }
+    

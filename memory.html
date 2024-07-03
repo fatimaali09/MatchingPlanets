@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memory.css">
+</head>
+<body>
+<div id="box">
+    <div class="title">Matching Planets</div>
+    <div class="button" id="start_button">start the game</div> 
+    <div id="timer"></div>
+    <!-- <button onclick="restart">Start</button> -->
+    <ol id="list">
+        <div class="gamebox">
+            <div class="card"><img src="mercury.webp" alt=""></div>
+            <div class="card"><img src="venus.jpg" alt=""></div>
+            <div class="card"><img src="saturn.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+            <div class="card"><img src="planets.jpg" alt=""></div>
+        </div>
+    </div>
+   
+    </ol>
+   
+    <script src="main.js"></script>
+<script>
+    document.getElementById('start_button').addEventListener('click', ()=>{
+        document.getElementById('timer').innerText='started';
+    })
+    // console.log(document.getElementById('start_button'))
+</script>
+</body>
+</html>
