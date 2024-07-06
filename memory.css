@@ -42,7 +42,7 @@ body{
     margin-top: 2px;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease-out;
 }
 
 
